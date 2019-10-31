@@ -48,35 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib
+CMAKE_SOURCE_DIR = /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_4_target_link_inner_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build
+CMAKE_BINARY_DIR = /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_4_target_link_inner_lib/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -100,33 +78,11 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_4_target_link_inner_lib/build/CMakeFiles /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_4_target_link_inner_lib/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_4_target_link_inner_lib/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -155,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_cv_2_add_static_lib
+# Target rules for targets named hello_cv_4_target_link_inner_lib
 
 # Build rule for target.
-hello_cv_2_add_static_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_cv_2_add_static_lib
-.PHONY : hello_cv_2_add_static_lib
+hello_cv_4_target_link_inner_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_cv_4_target_link_inner_lib
+.PHONY : hello_cv_4_target_link_inner_lib
 
 # fast build rule for target.
-hello_cv_2_add_static_lib/fast:
-	$(MAKE) -f CMakeFiles/hello_cv_2_add_static_lib.dir/build.make CMakeFiles/hello_cv_2_add_static_lib.dir/build
-.PHONY : hello_cv_2_add_static_lib/fast
+hello_cv_4_target_link_inner_lib/fast:
+	$(MAKE) -f CMakeFiles/hello_cv_4_target_link_inner_lib.dir/build.make CMakeFiles/hello_cv_4_target_link_inner_lib.dir/build
+.PHONY : hello_cv_4_target_link_inner_lib/fast
+
+#=============================================================================
+# Target rules for targets named hello_cv_4_add_shared_lib
+
+# Build rule for target.
+hello_cv_4_add_shared_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_cv_4_add_shared_lib
+.PHONY : hello_cv_4_add_shared_lib
+
+# fast build rule for target.
+hello_cv_4_add_shared_lib/fast:
+	$(MAKE) -f CMakeFiles/hello_cv_4_add_shared_lib.dir/build.make CMakeFiles/hello_cv_4_add_shared_lib.dir/build
+.PHONY : hello_cv_4_add_shared_lib/fast
 
 src/hello_cv_1.o: src/hello_cv_1.cpp.o
 
@@ -173,7 +142,7 @@ src/hello_cv_1.o: src/hello_cv_1.cpp.o
 
 # target to build an object file
 src/hello_cv_1.cpp.o:
-	$(MAKE) -f CMakeFiles/hello_cv_2_add_static_lib.dir/build.make CMakeFiles/hello_cv_2_add_static_lib.dir/src/hello_cv_1.cpp.o
+	$(MAKE) -f CMakeFiles/hello_cv_4_add_shared_lib.dir/build.make CMakeFiles/hello_cv_4_add_shared_lib.dir/src/hello_cv_1.cpp.o
 .PHONY : src/hello_cv_1.cpp.o
 
 src/hello_cv_1.i: src/hello_cv_1.cpp.i
@@ -182,7 +151,7 @@ src/hello_cv_1.i: src/hello_cv_1.cpp.i
 
 # target to preprocess a source file
 src/hello_cv_1.cpp.i:
-	$(MAKE) -f CMakeFiles/hello_cv_2_add_static_lib.dir/build.make CMakeFiles/hello_cv_2_add_static_lib.dir/src/hello_cv_1.cpp.i
+	$(MAKE) -f CMakeFiles/hello_cv_4_add_shared_lib.dir/build.make CMakeFiles/hello_cv_4_add_shared_lib.dir/src/hello_cv_1.cpp.i
 .PHONY : src/hello_cv_1.cpp.i
 
 src/hello_cv_1.s: src/hello_cv_1.cpp.s
@@ -191,8 +160,35 @@ src/hello_cv_1.s: src/hello_cv_1.cpp.s
 
 # target to generate assembly for a file
 src/hello_cv_1.cpp.s:
-	$(MAKE) -f CMakeFiles/hello_cv_2_add_static_lib.dir/build.make CMakeFiles/hello_cv_2_add_static_lib.dir/src/hello_cv_1.cpp.s
+	$(MAKE) -f CMakeFiles/hello_cv_4_add_shared_lib.dir/build.make CMakeFiles/hello_cv_4_add_shared_lib.dir/src/hello_cv_1.cpp.s
 .PHONY : src/hello_cv_1.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_cv_4_target_link_inner_lib.dir/build.make CMakeFiles/hello_cv_4_target_link_inner_lib.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_cv_4_target_link_inner_lib.dir/build.make CMakeFiles/hello_cv_4_target_link_inner_lib.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_cv_4_target_link_inner_lib.dir/build.make CMakeFiles/hello_cv_4_target_link_inner_lib.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -200,16 +196,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... hello_cv_2_add_static_lib"
 	@echo "... edit_cache"
-	@echo "... install/strip"
-	@echo "... install/local"
+	@echo "... hello_cv_4_target_link_inner_lib"
+	@echo "... hello_cv_4_add_shared_lib"
 	@echo "... src/hello_cv_1.o"
 	@echo "... src/hello_cv_1.i"
 	@echo "... src/hello_cv_1.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

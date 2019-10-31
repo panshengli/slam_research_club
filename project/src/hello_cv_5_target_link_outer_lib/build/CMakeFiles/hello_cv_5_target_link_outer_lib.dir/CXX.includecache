@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/install/include/hello_cv_1.h
+string
+-
+iostream
+-
+
+/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_5_target_link_outer_lib/src/main.cpp
+hello_cv_1.h
+/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_5_target_link_outer_lib/src/hello_cv_1.h
+string
+-
+iostream
+-
+
