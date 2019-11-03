@@ -1,0 +1,12 @@
+pic1生成了在lib下生成了libhello_cv_3_lib.so.so文件
+
+一点思考?
+如果我们同时构建静态和动态的同名库?
+还能使用 add_library(hello_cv_3_lib SHARED src/hello_cv_1.cpp)?
+添加pic2看下效果?
+插入图片
+怎么使用?
+1.不同name的lib吗?显然不合适
+2.加入cmake的新特性
+重点:静态库和动态库是区别是什么?优势和劣势
+

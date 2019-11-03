@@ -2,6 +2,7 @@
 #define HELLO_CV_1_H_
 #include <string>
 #include <iostream>
+
 namespace hello_cv_1
 {
 class HelloCv_1
@@ -15,3 +16,4 @@ class HelloCv_1
 };
 }
 #endif
+

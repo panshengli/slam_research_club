@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_3_add_shared_lib
+CMAKE_SOURCE_DIR = /media/henry_pan/Data/slam_research_club/project/src/hello_cv_3_add_shared_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_3_add_shared_lib/build
+CMAKE_BINARY_DIR = /media/henry_pan/Data/slam_research_club/project/src/hello_cv_3_add_shared_lib/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_3_add_shared_lib/build/CMakeFiles /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_3_add_shared_lib/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/henry_pan/Data/slam_research_club/project/src/hello_cv_3_add_shared_lib/build/CMakeFiles /media/henry_pan/Data/slam_research_club/project/src/hello_cv_3_add_shared_lib/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_3_add_shared_lib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/henry_pan/Data/slam_research_club/project/src/hello_cv_3_add_shared_lib/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_cv_3_add_shared_lib
+# Target rules for targets named hello_cv_3_add_static_lib
 
 # Build rule for target.
-hello_cv_3_add_shared_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_cv_3_add_shared_lib
-.PHONY : hello_cv_3_add_shared_lib
+hello_cv_3_add_static_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_cv_3_add_static_lib
+.PHONY : hello_cv_3_add_static_lib
 
 # fast build rule for target.
-hello_cv_3_add_shared_lib/fast:
-	$(MAKE) -f CMakeFiles/hello_cv_3_add_shared_lib.dir/build.make CMakeFiles/hello_cv_3_add_shared_lib.dir/build
-.PHONY : hello_cv_3_add_shared_lib/fast
+hello_cv_3_add_static_lib/fast:
+	$(MAKE) -f CMakeFiles/hello_cv_3_add_static_lib.dir/build.make CMakeFiles/hello_cv_3_add_static_lib.dir/build
+.PHONY : hello_cv_3_add_static_lib/fast
+
+#=============================================================================
+# Target rules for targets named hello_cv_3_lib
+
+# Build rule for target.
+hello_cv_3_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_cv_3_lib
+.PHONY : hello_cv_3_lib
+
+# fast build rule for target.
+hello_cv_3_lib/fast:
+	$(MAKE) -f CMakeFiles/hello_cv_3_lib.dir/build.make CMakeFiles/hello_cv_3_lib.dir/build
+.PHONY : hello_cv_3_lib/fast
 
 src/hello_cv_1.o: src/hello_cv_1.cpp.o
 
@@ -129,7 +142,8 @@ src/hello_cv_1.o: src/hello_cv_1.cpp.o
 
 # target to build an object file
 src/hello_cv_1.cpp.o:
-	$(MAKE) -f CMakeFiles/hello_cv_3_add_shared_lib.dir/build.make CMakeFiles/hello_cv_3_add_shared_lib.dir/src/hello_cv_1.cpp.o
+	$(MAKE) -f CMakeFiles/hello_cv_3_add_static_lib.dir/build.make CMakeFiles/hello_cv_3_add_static_lib.dir/src/hello_cv_1.cpp.o
+	$(MAKE) -f CMakeFiles/hello_cv_3_lib.dir/build.make CMakeFiles/hello_cv_3_lib.dir/src/hello_cv_1.cpp.o
 .PHONY : src/hello_cv_1.cpp.o
 
 src/hello_cv_1.i: src/hello_cv_1.cpp.i
@@ -138,7 +152,8 @@ src/hello_cv_1.i: src/hello_cv_1.cpp.i
 
 # target to preprocess a source file
 src/hello_cv_1.cpp.i:
-	$(MAKE) -f CMakeFiles/hello_cv_3_add_shared_lib.dir/build.make CMakeFiles/hello_cv_3_add_shared_lib.dir/src/hello_cv_1.cpp.i
+	$(MAKE) -f CMakeFiles/hello_cv_3_add_static_lib.dir/build.make CMakeFiles/hello_cv_3_add_static_lib.dir/src/hello_cv_1.cpp.i
+	$(MAKE) -f CMakeFiles/hello_cv_3_lib.dir/build.make CMakeFiles/hello_cv_3_lib.dir/src/hello_cv_1.cpp.i
 .PHONY : src/hello_cv_1.cpp.i
 
 src/hello_cv_1.s: src/hello_cv_1.cpp.s
@@ -147,7 +162,8 @@ src/hello_cv_1.s: src/hello_cv_1.cpp.s
 
 # target to generate assembly for a file
 src/hello_cv_1.cpp.s:
-	$(MAKE) -f CMakeFiles/hello_cv_3_add_shared_lib.dir/build.make CMakeFiles/hello_cv_3_add_shared_lib.dir/src/hello_cv_1.cpp.s
+	$(MAKE) -f CMakeFiles/hello_cv_3_add_static_lib.dir/build.make CMakeFiles/hello_cv_3_add_static_lib.dir/src/hello_cv_1.cpp.s
+	$(MAKE) -f CMakeFiles/hello_cv_3_lib.dir/build.make CMakeFiles/hello_cv_3_lib.dir/src/hello_cv_1.cpp.s
 .PHONY : src/hello_cv_1.cpp.s
 
 # Help Target
@@ -156,9 +172,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello_cv_3_add_shared_lib"
+	@echo "... hello_cv_3_add_static_lib"
+	@echo "... edit_cache"
+	@echo "... hello_cv_3_lib"
 	@echo "... src/hello_cv_1.o"
 	@echo "... src/hello_cv_1.i"
 	@echo "... src/hello_cv_1.s"

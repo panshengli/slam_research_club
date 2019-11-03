@@ -1,8 +1,8 @@
-# Install script for directory: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib
+# Install script for directory: /media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/install")
+  set(CMAKE_INSTALL_PREFIX "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/libstatic" TYPE STATIC_LIBRARY FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/libhello_cv_2_add_static_lib.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/build/libhello_cv_2_add_static_lib.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/include/hello_cv_1.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/include/hello_cv_1.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config.cmake"
-         "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles/Export/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config.cmake")
+         "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles/Export/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -53,9 +53,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hello_cv_2_add_static_lib" TYPE FILE FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles/Export/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hello_cv_2_add_static_lib" TYPE FILE FILES "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles/Export/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hello_cv_2_add_static_lib" TYPE FILE FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles/Export/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hello_cv_2_add_static_lib" TYPE FILE FILES "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/build/CMakeFiles/Export/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config-noconfig.cmake")
   endif()
 endif()
 
@@ -67,5 +67,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_2_add_static_lib/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

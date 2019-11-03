@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libhello_cv_4_lib.so -o ../lib/libhello_cv_4_lib.so CMakeFiles/hello_cv_4_lib.dir/src/hello_cv_1.cpp.o 

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_4_target_link_inner_lib/include 
+CXX_INCLUDES = -I/media/henry_pan/Data/slam_research_club/project/src/hello_cv_4_target_link_inner_lib/include 
 

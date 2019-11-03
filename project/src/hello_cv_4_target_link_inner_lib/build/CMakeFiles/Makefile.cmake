@@ -112,5 +112,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hello_cv_4_target_link_inner_lib.dir/DependInfo.cmake"
-  "CMakeFiles/hello_cv_4_add_shared_lib.dir/DependInfo.cmake"
+  "CMakeFiles/hello_cv_4_lib.dir/DependInfo.cmake"
   )

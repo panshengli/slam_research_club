@@ -9,3 +9,4 @@ int main()
     std::cout << helloCv_1_.getMsgsContent("Hello_OpenCV") << std::endl;
     return 0;
 }
+

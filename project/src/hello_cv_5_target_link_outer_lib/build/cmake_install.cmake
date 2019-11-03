@@ -1,4 +1,4 @@
-# Install script for directory: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_5_target_link_outer_lib
+# Install script for directory: /media/henry_pan/Data/slam_research_club/project/src/hello_cv_5_target_link_outer_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_5_target_link_outer_lib/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_5_target_link_outer_lib/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
