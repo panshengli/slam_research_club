@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
+
 project(hello_cv_2_add_static_lib)
 
 add_compile_options(-std=c++11)
@@ -9,7 +10,8 @@ include_directories(include)
 
 add_library(hello_cv_2_add_static_lib STATIC src/hello_cv_1.cpp)
 
-set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/install)
+# 设置install安装目录,类似于cmake -DCMAKE_INSTALL_PREFIX指令
+set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/install) 
 
 # 外部链接时include的位置,如果不指明外部依赖无法找到对应的include库
 target_include_directories(hello_cv_2_add_static_lib PUBLIC
