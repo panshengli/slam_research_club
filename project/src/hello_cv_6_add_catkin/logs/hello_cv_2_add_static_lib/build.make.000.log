@@ -1,4 +1,4 @@
 [35m[1mScanning dependencies of target hello_cv_2_add_static_lib[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/hello_cv_2_add_static_lib.dir/src/hello_cv_1.cpp.o[0m
-[100%] [32m[1mLinking CXX static library /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/libhello_cv_2_add_static_lib.a[0m
+[100%] [32m[1mLinking CXX static library /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/libhello_cv_2_add_static_lib.a[0m
 [100%] Built target hello_cv_2_add_static_lib

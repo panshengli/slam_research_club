@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_5_target_link_outer_lib/include -I/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/include 
+CXX_INCLUDES = -I/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_5_target_link_outer_lib/include -I/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/include 
 

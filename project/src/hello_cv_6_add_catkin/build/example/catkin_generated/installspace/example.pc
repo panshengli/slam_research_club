@@ -1,0 +1,8 @@
+prefix=/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install
+
+Name: example
+Description: Description of example
+Version: 0.0.0
+Cflags: 
+Libs: -L/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/lib 
+Requires: 

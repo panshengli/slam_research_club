@@ -1,10 +1,4 @@
 [35m[1mScanning dependencies of target hello_cv_5_target_link_outer_lib[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/hello_cv_5_target_link_outer_lib.dir/src/main.cpp.o[0m
-[01m[K/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_5_target_link_outer_lib/src/main.cpp:1:24:[m[K [01;31m[Kfatal error: [m[Khello_cv_1.h: No such file or directory
-compilation terminated.
-CMakeFiles/hello_cv_5_target_link_outer_lib.dir/build.make:62: recipe for target 'CMakeFiles/hello_cv_5_target_link_outer_lib.dir/src/main.cpp.o' failed
-make[2]: *** [CMakeFiles/hello_cv_5_target_link_outer_lib.dir/src/main.cpp.o] Error 1
-CMakeFiles/Makefile2:163: recipe for target 'CMakeFiles/hello_cv_5_target_link_outer_lib.dir/all' failed
-make[1]: *** [CMakeFiles/hello_cv_5_target_link_outer_lib.dir/all] Error 2
-Makefile:138: recipe for target 'all' failed
-make: *** [all] Error 2
+[100%] [32m[1mLinking CXX executable hello_cv_5_target_link_outer_lib[0m
+[100%] Built target hello_cv_5_target_link_outer_lib

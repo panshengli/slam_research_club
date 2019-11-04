@@ -1,8 +1,8 @@
-prefix=/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/catkin_tools_prebuild
+prefix=/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/catkin_tools_prebuild
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/catkin_tools_prebuild/lib 
+Libs: -L/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/catkin_tools_prebuild/lib 
 Requires: 

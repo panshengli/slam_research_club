@@ -67,14 +67,14 @@ set(hello_cv_2_add_static_lib_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(hello_cv_2_add_static_lib_SOURCE_PREFIX /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib)
-  set(hello_cv_2_add_static_lib_DEVEL_PREFIX /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib)
+  set(hello_cv_2_add_static_lib_SOURCE_PREFIX /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib)
+  set(hello_cv_2_add_static_lib_DEVEL_PREFIX /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib)
   set(hello_cv_2_add_static_lib_INSTALL_PREFIX "")
   set(hello_cv_2_add_static_lib_PREFIX ${hello_cv_2_add_static_lib_DEVEL_PREFIX})
 else()
   set(hello_cv_2_add_static_lib_SOURCE_PREFIX "")
   set(hello_cv_2_add_static_lib_DEVEL_PREFIX "")
-  set(hello_cv_2_add_static_lib_INSTALL_PREFIX /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install)
+  set(hello_cv_2_add_static_lib_INSTALL_PREFIX /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install)
   set(hello_cv_2_add_static_lib_PREFIX ${hello_cv_2_add_static_lib_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(hello_cv_2_add_static_lib_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/include " STREQUAL " ")
+if(NOT "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/include " STREQUAL " ")
   set(hello_cv_2_add_static_lib_INCLUDE_DIRS "")
-  set(_include_dirs "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/include")
+  set(_include_dirs "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_cat
         message(FATAL_ERROR "Project 'hello_cv_2_add_static_lib' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'hello_cv_2_add_static_lib' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'hello_cv_2_add_static_lib' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_2_add_static_lib/${idir}'.  ${_report}")
     endif()
     _list_append_unique(hello_cv_2_add_static_lib_INCLUDE_DIRS ${include})
   endforeach()
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib;/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib;/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

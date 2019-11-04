@@ -1,4 +1,13 @@
-Symlinking /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig-version.cmake
-Symlinking /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig.cmake
-Symlinking /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/libhello_cv_2_add_static_lib.a
-Symlinking /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/pkgconfig/hello_cv_2_add_static_lib.pc
+Symlinking /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/libhello_cv_2_add_static_lib.a
+Symlinking /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/pkgconfig/hello_cv_2_add_static_lib.pc
+Symlinking /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig-version.cmake
+Symlinking /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig.cmake
+Cleaning: (/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/cmake.lock, /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/./cmake.lock)
+Cleaning: (/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig-version.cmake, /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig-version.cmake)
+Cleaning: (/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig.cmake, /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig.cmake)
+Cleaning: (/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/libhello_cv_2_add_static_lib.a, /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/libhello_cv_2_add_static_lib.a)
+Cleaning: (/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/pkgconfig/hello_cv_2_add_static_lib.pc, /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/pkgconfig/hello_cv_2_add_static_lib.pc)
+Unlinking: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig-version.cmake
+Unlinking: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/share/hello_cv_2_add_static_lib/cmake/hello_cv_2_add_static_libConfig.cmake
+Unlinking: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/libhello_cv_2_add_static_lib.a
+Unlinking: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/lib/pkgconfig/hello_cv_2_add_static_lib.pc

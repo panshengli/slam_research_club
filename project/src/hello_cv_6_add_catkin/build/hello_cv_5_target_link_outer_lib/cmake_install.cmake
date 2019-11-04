@@ -1,8 +1,8 @@
-# Install script for directory: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_5_target_link_outer_lib
+# Install script for directory: /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_5_target_link_outer_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,98 +44,83 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/_setup_util.py")
+   "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE PROGRAM FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE PROGRAM FILES "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/env.sh")
+   "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE PROGRAM FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE PROGRAM FILES "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/setup.bash;/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/local_setup.bash")
+   "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/setup.bash;/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/setup.bash"
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES
+    "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/setup.bash"
+    "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/setup.sh;/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/local_setup.sh")
+   "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/setup.sh;/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/setup.sh"
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES
+    "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/setup.sh"
+    "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/setup.zsh;/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/local_setup.zsh")
+   "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/setup.zsh;/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/setup.zsh"
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES
+    "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/setup.zsh"
+    "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install/.rosinstall")
+   "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/.rosinstall")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/hello_cv_5_target_link_outer_lib.pc")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_cv_5_target_link_outer_lib/cmake" TYPE FILE FILES
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/hello_cv_5_target_link_outer_libConfig.cmake"
-    "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/hello_cv_5_target_link_outer_libConfig-version.cmake"
-    )
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_cv_5_target_link_outer_lib" TYPE FILE FILES "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/src/hello_cv_5_target_link_outer_lib/package.xml")
+file(INSTALL DESTINATION "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/install" TYPE FILE FILES "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -146,5 +131,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

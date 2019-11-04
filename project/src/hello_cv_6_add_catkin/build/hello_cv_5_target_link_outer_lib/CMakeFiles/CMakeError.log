@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp
+Change Dir: /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cca2b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cca2b.dir/build.make CMakeFiles/cmTC_cca2b.dir/build
-make[1]: Entering directory '/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cca2b.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_cca2b.dir/CheckSymbolExists.c.o   -c /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_cca2b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca2b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_cca2b.dir/CheckSymbolExists.c.o  -o cmTC_cca2b -rdynamic 
-CMakeFiles/cmTC_cca2b.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_c769c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c769c.dir/build.make CMakeFiles/cmTC_c769c.dir/build
+make[1]: Entering directory '/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c769c.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c769c.dir/CheckSymbolExists.c.o   -c /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c769c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c769c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c769c.dir/CheckSymbolExists.c.o  -o cmTC_c769c -rdynamic 
+CMakeFiles/cmTC_c769c.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_cca2b.dir/build.make:97: recipe for target 'cmTC_cca2b' failed
-make[1]: *** [cmTC_cca2b] Error 1
-make[1]: Leaving directory '/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cca2b/fast' failed
-make: *** [cmTC_cca2b/fast] Error 2
+CMakeFiles/cmTC_c769c.dir/build.make:97: recipe for target 'cmTC_c769c' failed
+make[1]: *** [cmTC_c769c] Error 1
+make[1]: Leaving directory '/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c769c/fast' failed
+make: *** [cmTC_c769c/fast] Error 2
 
-File /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp
+Change Dir: /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c14b2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c14b2.dir/build.make CMakeFiles/cmTC_c14b2.dir/build
-make[1]: Entering directory '/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c14b2.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c14b2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c14b2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c14b2.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c14b2.dir/CheckFunctionExists.c.o  -o cmTC_c14b2 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_ff087/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff087.dir/build.make CMakeFiles/cmTC_ff087.dir/build
+make[1]: Entering directory '/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff087.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ff087.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff087
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff087.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ff087.dir/CheckFunctionExists.c.o  -o cmTC_ff087 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c14b2.dir/build.make:97: recipe for target 'cmTC_c14b2' failed
-make[1]: *** [cmTC_c14b2] Error 1
-make[1]: Leaving directory '/home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c14b2/fast' failed
-make: *** [cmTC_c14b2/fast] Error 2
+CMakeFiles/cmTC_ff087.dir/build.make:97: recipe for target 'cmTC_ff087' failed
+make[1]: *** [cmTC_ff087] Error 1
+make[1]: Leaving directory '/media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/build/hello_cv_5_target_link_outer_lib/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ff087/fast' failed
+make: *** [cmTC_ff087/fast] Error 2
 
 

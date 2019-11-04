@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/libhello_cv_2_add_static_lib.a  CMakeFiles/hello_cv_2_add_static_lib.dir/src/hello_cv_1.cpp.o
-/usr/bin/ranlib /home/henry_pan/ws_psl/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/libhello_cv_2_add_static_lib.a
+/usr/bin/ar qc /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/libhello_cv_2_add_static_lib.a  CMakeFiles/hello_cv_2_add_static_lib.dir/src/hello_cv_1.cpp.o
+/usr/bin/ranlib /media/henry_pan/Data/slam_research_club/project/src/hello_cv_6_add_catkin/devel/.private/hello_cv_2_add_static_lib/lib/libhello_cv_2_add_static_lib.a
