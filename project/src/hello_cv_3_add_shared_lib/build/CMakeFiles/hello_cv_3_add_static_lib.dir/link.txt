@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libhello_cv_3_lib.a  CMakeFiles/hello_cv_3_add_static_lib.dir/src/hello_cv_1.cpp.o
-/usr/bin/ranlib ../lib/libhello_cv_3_lib.a

@@ -1,4 +1,0 @@
-/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/install/lib/libhello_cv_2_add_static_lib.a
-/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/install/include/hello_cv_1.h
-/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/install/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config.cmake
-/media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/install/lib/cmake/hello_cv_2_add_static_lib/hello_cv_2_add_static_lib-config-noconfig.cmake

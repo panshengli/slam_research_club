@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/hello_cv_1.dir/src/main.cpp.o CMakeFiles/hello_cv_1.dir/src/hello_cv_1.cpp.o  -o hello_cv_1 -rdynamic 

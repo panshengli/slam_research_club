@@ -1,5 +1,0 @@
-1.通过catkin create --pkg XXXX_2
-在src下面产生CMakeLists.txt和package.xml
-2.通过catkin build后
-在devel下生成对应的lib
-在build下生成对应的bin

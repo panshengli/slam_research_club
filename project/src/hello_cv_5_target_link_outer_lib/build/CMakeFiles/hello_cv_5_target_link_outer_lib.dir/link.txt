@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/hello_cv_5_target_link_outer_lib.dir/src/main.cpp.o  -o hello_cv_5_target_link_outer_lib -rdynamic /media/henry_pan/Data/slam_research_club/project/src/hello_cv_2_add_static_lib/install/lib/libhello_cv_2_add_static_lib.a 

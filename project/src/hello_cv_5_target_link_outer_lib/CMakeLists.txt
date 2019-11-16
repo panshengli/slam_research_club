@@ -2,8 +2,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(hello_cv_5_target_link_outer_lib)
 add_compile_options(-std=c++11)
-
-# 方法二:利用find_package查找,对应project2的方法二
+# 方法三:利用find_package查找(配置模式)
 set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/../hello_cv_2_add_static_lib/install)
 find_package(hello_cv_2_add_static_lib REQUIRED)
 if(hello_cv_2_add_static_lib_FOUND)
