@@ -1,11 +1,13 @@
 find_path(hello_cv_7_install_lib_INCLUDE_DIR 
   NAMES hello_cv_1.h 
   # <必须绝对路径,推荐安装在"/usr/share/cmake/Modules/"目录下">
-  PATHS "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_7_install_lib/install/include/")
+  PATHS "${PROJECT_SOURCE_DIR}/install/include/")	      
+  #PATHS "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_7_install_lib/install/include/")
 find_library(hello_cv_7_install_lib_LIBRARY  
   # names也可以指定具体文件名libhello_cv_7_install_lib.a 
   NAMES hello_cv_7_install_lib      # 思考题:同时生成.a和.so,那么lib链接谁 ???
-  PATHS "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_7_install_lib/install/lib/")
+  PATHS "${PROJECT_SOURCE_DIR}/install/lib/")
+  #PATHS "/media/henry_pan/Data/slam_research_club/project/src/hello_cv_7_install_lib/install/lib/")
 
 IF (hello_cv_7_install_lib_INCLUDE_DIR AND hello_cv_7_install_lib_LIBRARY)
     SET(hello_cv_7_install_lib_FOUND TRUE)
